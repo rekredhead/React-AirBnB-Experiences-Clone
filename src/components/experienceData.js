@@ -1,28 +1,31 @@
-let experienceData = [
+const experienceData = [
     {
-        status:"SOLD-OUT",
-        image:"logo192.png",
+        id: 0,
+        openSpots:0,
+        coverImage:"logo192.png",
         rating:"5.0",
         reviewCount:6,
-        country:"USA",
+        location: "Online",
         title:"Life Lessons with Katie Zaferes",
         price:136
     },
     {
-        status:"AVAILABLE",
-        image:"index.png",
+        id: 1,
+        openSpots:2,
+        coverImage:"index.png",
         rating:"4.7",
         reviewCount:30,
-        country:"Canada",
+        location: "Online",
         title:"Life Lessons with Alessia Cara",
         price:50
     },
     {
-        status:"AVAILABLE",
-        image:"alessia.png",
+        id: 2,
+        openSpots:4,
+        coverImage:"alessia.png",
         rating: "4.5",
         reviewCount:40,
-        country:"Norway",
+        location: "Online",
         title:"Life Lessons with Regina",
         price:60
     }
